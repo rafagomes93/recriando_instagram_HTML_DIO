@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  color: #929292be;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #3898f1;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3898f1;
+    font-size: 17px;
+}
+
+.btn:hover{
+    background-color: #3898f1e3;
+}
+
+.fa-facebook-square{
+    color: #fff;
+    font-size: 17px;
+}
+
+img{
+  width: 200px;
+}
+
+body{
+  background-color: #fafafa;
+}
+
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.celular{
+  width: 400px;
+}
+
+.conteudo{
+    border: 1px solid #f4f4f4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo p{
+    text-align: center;
+}
+
+.conteudo form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.conteudo form input{
+  padding: 5px;
+  margin: 3px 0;
+  border: 0.5px solid;
+  border-radius: 4px;
+}
+
+.conteudo form button{
+  width: 100%;
+}
+
+.conteudo span{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bloco-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.cadastrado{
+  border: 1px solid #f4f4f4;
+  background-color: #fff;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cadastrado a{
+  font-weight: 300;
+}
+
+.mobile{
+    display: none;
+}
+
+/*MEDIA QUERY*/
+
+@media(max-width: 768px){
+  .imagem{
+    display: none;
+  }
+
+  .container{
+    padding: 10px;
+  }
+
+  .conteudo{
+    width: 100%;
+    padding: 0;
+    border: none;
+    background-color: #fafafa;
+  }
+
+  .conteudo p{
+    font-size: 18px;
+  }
+
+  .conteudo form{
+    width: 100%;
+  }
+
+  .conteudo form input{
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .btn{
+    margin: 5px 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+
+  .conteudo span{
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .cadastrado a{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .mobile{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile img{
+    width: 100%;
+  }
+}
